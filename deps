@@ -1,0 +1,117 @@
+[symfony]
+    git=http://github.com/symfony/symfony.git
+    version=origin/2.0
+
+[twig]
+    git=http://github.com/fabpot/Twig.git
+    version=v1.1.2
+
+[monolog]
+    git=http://github.com/Seldaek/monolog.git
+    version=1.0.0
+
+[doctrine-common]
+    git=http://github.com/doctrine/common.git
+    version=origin/2.1.x
+
+[doctrine-dbal]
+    git=http://github.com/doctrine/dbal.git
+    version=origin/2.1.x
+
+[doctrine]
+    git=http://github.com/doctrine/doctrine2.git
+    version=origin/2.1.x
+
+[swiftmailer]
+    git=http://github.com/swiftmailer/swiftmailer.git
+    version=v4.1.1
+
+[assetic]
+    git=http://github.com/kriswallsmith/assetic.git
+    version=v1.0.1
+
+[twig-extensions]
+    git=http://github.com/fabpot/Twig-extensions.git
+
+[metadata]
+    git=http://github.com/schmittjoh/metadata.git
+    version=origin/1.0.x
+
+[SensioFrameworkExtraBundle]
+    git=http://github.com/sensio/SensioFrameworkExtraBundle.git
+    target=/bundles/Sensio/Bundle/FrameworkExtraBundle
+
+[JMSSecurityExtraBundle]
+    git=http://github.com/schmittjoh/JMSSecurityExtraBundle.git
+    target=/bundles/JMS/SecurityExtraBundle
+
+[SensioDistributionBundle]
+    git=http://github.com/sensio/SensioDistributionBundle.git
+    target=/bundles/Sensio/Bundle/DistributionBundle
+
+[SensioGeneratorBundle]
+    git=http://github.com/sensio/SensioGeneratorBundle.git
+    target=/bundles/Sensio/Bundle/GeneratorBundle
+
+[AsseticBundle]
+    git=http://github.com/symfony/AsseticBundle.git
+    target=/bundles/Symfony/Bundle/AsseticBundle
+    version=v1.0.0
+
+[FOSUserBundle]
+    git=git://github.com/FriendsOfSymfony/FOSUserBundle.git
+    target=bundles/FOS/UserBundle
+
+[JMSDebuggingBundle]
+    git=https://github.com/schmittjoh/JMSDebuggingBundle.git
+    target=/bundles/JMS/DebuggingBundle
+
+[FOSJsRoutingBundle]
+    git=https://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git
+    target=/bundles/FOS/JsRoutingBundle
+
+[doctrine-fixtures]
+    git=http://github.com/doctrine/data-fixtures.git
+
+[DoctrineFixturesBundle]
+    git=http://github.com/symfony/DoctrineFixturesBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineFixturesBundle
+
+[DoctrineExtensions]
+    git=https://github.com/l3pp4rd/DoctrineExtensions.git 
+    target=gedmo-doctrine-extensions
+
+[StofDoctrineExtensionsBundle]
+    git=https://github.com/stof/StofDoctrineExtensionsBundle.git 
+    target=/bundles/Stof/DoctrineExtensionsBundle
+
+[KnpMenuBundle]
+    git=https://github.com/knplabs/KnpMenuBundle.git
+    target=/bundles/Knp/Bundle/MenuBundle
+
+[Imagine]
+    git=http://github.com/avalanche123/Imagine.git
+    target=imagine
+
+[AvalancheImagineBundle]
+    git=http://github.com/avalanche123/AvalancheImagineBundle.git
+    target=bundles/Avalanche/Bundle/ImagineBundle
+
+[SonatajQueryBundle]
+    git=http://github.com/sonata-project/SonatajQueryBundle.git
+    target=/bundles/Sonata/jQueryBundle
+
+[SonataBluePrintBundle]
+    git=http://github.com/sonata-project/SonataBluePrintBundle.git
+    target=/bundles/Sonata/BluePrintBundle
+      
+[SonataAdminBundle]
+    git=http://github.com/sonata-project/SonataAdminBundle.git
+    target=/bundles/Sonata/AdminBundle
+
+[doctrine-migrations]
+    git=http://github.com/doctrine/migrations.git
+
+[DoctrineMigrationsBundle]
+    git=http://github.com/symfony/DoctrineMigrationsBundle.git
+    target=/bundles/Symfony/Bundle/DoctrineMigrationsBundle
