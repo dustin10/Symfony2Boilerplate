@@ -33,6 +33,8 @@ class UserAdmin extends Admin
             ->add('username')
             ->add('email')
             ->add('lastLogin')
+            ->add('createdAt')
+            ->add('updatedAt')
         ;
     }
 
@@ -69,6 +71,7 @@ class UserAdmin extends Admin
             ->add('enabled')
             ->add('locked')
             ->add('lastLogin')
+            ->add('createdAt')
         ;
     }
 
@@ -79,19 +82,10 @@ class UserAdmin extends Admin
      */
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
-        
-    }
-    
-    /**
-     * Configures the side menu.
-     * 
-     * @param MenuItem $menu The menu
-     * @param type $action The action type
-     * @param Admin $childAdmin The child
-     */
-    protected function configureSideMenu(MenuItem $menu, $action, Admin $childAdmin = null)
-    {
-        
+        $datagridMapper
+            ->add('username')
+            ->add('email')
+        ;
     }
     
     /**
