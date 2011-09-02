@@ -1,0 +1,15 @@
+# breadcrumbs
+breadcrumb.link_user_list: Users
+breadcrumb.link_user_create: Create
+breadcrumb.link_user_edit: Edit
+breadcrumb.link_user_show: Show
+
+# fields
+username: Username
+email: Email
+enabled: Enabled
+locked: Locked
+lastLogin: Last Login
+createdAt: Created At
+updatedAt: Updated At
+Plainpassword: Plain Password
