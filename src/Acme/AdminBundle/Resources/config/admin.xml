@@ -10,6 +10,9 @@
             <argument/>
             <argument>Acme\UserBundle\Entity\User</argument>
             <argument>AcmeAdminBundle:UserAdmin</argument>
+            <call method="setUserManager">
+                <argument type="service" id="fos_user.user_manager" />
+            </call>
         </service>
     </services>
     
