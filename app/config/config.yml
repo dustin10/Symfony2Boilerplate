@@ -67,9 +67,6 @@ fos_user:
     db_driver: orm
     firewall_name: main
     user_class: Acme\UserBundle\Entity\User
-   
-# JMSDebuggingBundle Configuration
-jms_debugging: ~
 
 # StofDoctrineExtensionsBundle Configuration
 stof_doctrine_extensions:
