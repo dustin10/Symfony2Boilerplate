@@ -5,7 +5,7 @@
 	   xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">	 	
 
     <services>
-        <service id="acme.menu_builder" class="">
+        <service id="acme.menu_builder" class="Acme\ApplicationBundle\Menu\MenuBuilder">
             <argument type="service" id="knp_menu.factory" />
         </service>
         
