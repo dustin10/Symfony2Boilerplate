@@ -1,7 +1,6 @@
 imports:
     - { resource: parameters.ini }
     - { resource: security.yml }
-    - { resource "@AcmeApplicationBundle/Resources/config/menu.xml" }
     - { resource "@AcmeAdminBundle/Resources/config/admin.xml" }
 
 # FrameworkBundle Configuration
@@ -78,8 +77,7 @@ stof_doctrine_extensions:
         default: ~
         
 # KnpMenuBundle Configuration 
-knp_menu:
-    twig: true
+knp_menu: ~
         
 # AvalancheImagineBundle Configuration
 avalanche_imagine:
