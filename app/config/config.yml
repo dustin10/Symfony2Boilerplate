@@ -1,7 +1,8 @@
 imports:
     - { resource: parameters.ini }
     - { resource: security.yml }
-    - { resource "@AcmeAdminBundle/Resources/config/admin.xml" }
+    - { resource: "@AcmeApplicationBundle/Resources/config/menu.xml" }
+    - { resource: "@AcmeAdminBundle/Resources/config/admin.xml" }
 
 # FrameworkBundle Configuration
 framework:
