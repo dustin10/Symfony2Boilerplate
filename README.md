@@ -8,6 +8,6 @@ with many of the most popular 3rd party bundles have been added and pre-configur
 
 ## TODO
 
-* Integreate Twitter Bootstrap
+* Integrate Twitter Bootstrap
 * Integrate HTML5 Boilerplate
 * Finish admin for User roles
